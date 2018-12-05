@@ -125,7 +125,7 @@ class TextProgressDialog(QtWidgets.QLabel):
             
             return self._actionReturned
 
-
+print "123"
 def showProgress(label='Getting data', waitSeconds=1):
     def call(func):
         def handle(*args, **kwargs):
